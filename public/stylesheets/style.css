@@ -1,0 +1,67 @@
+
+.wholescreenclass {
+  background-color: #9BB7CF;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  
+}
+
+.quizbodyclass {
+  text-align: center;
+  font-family: arial;
+  background-color: hsla(0,0%,90%,0.70);
+  background-blend-mode: overlay;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+.takequizclass {
+  text-align: center;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 60px;
+  background-color: none;
+  width: 600px;
+  height: 50px;
+  margin-left: 320px;
+  padding-top: 20px;
+ 
+}
+
+.middleclass {
+  margin-top: 100px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 100%;
+}
+
+.interestclass {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.nameclass {
+  border: none;
+  background-color: white;
+  opacity: .8;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.submitbuttonclass {
+  border: none;
+  margin-top: 70px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 100%;
+  padding-top: 5px;
+  background-color: #9BB7CF;
+  width: 60px;
+  height: 35px;
+}
+
+.checkboxclass {
+  
+}
+
+
+

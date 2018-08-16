@@ -1,0 +1,48 @@
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+</head>
+
+
+
+<body class = "RecommendationsClass">
+  
+
+
+  <h1>Hi, <%=@name%>! Your Recommendations</h1>
+    <% @category.each do |recommend| %>
+      <%= "#{recommend}" %>
+      
+      <% if recommend == "makeup" %>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1ZbjvzOUzvA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <% end %>
+      <% if recommend == "technology" %>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sBARzKRGLoM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <% end %>
+      <% if recommend == "sports" %>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GaJ4BKcDGiM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <% end %>
+      <% if recommend == "diy" %>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ISShqZ3rsVM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <% end %>
+      <% if recommend == "education" %>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CNbklPRdT4Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <% end %>
+      <% if recommend == "health" %>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HZrU9iB6a0o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <% end %>
+      <% if recommend == "performing arts" %>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ujREEgxEP7g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <% end %>
+      <% if recommend == "relationships" %>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vpsrdsYqarw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <% end %>
+     
+    <% end %>
+
+
+
+<a href = "/allvideos">
+  <button input type= "submit">Click for All Videos</button>
+</a>
+</body>

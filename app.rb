@@ -2,29 +2,76 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-  get '/food_form' do
-    erb :food_form
-  end
+get '/' do
+  erb :WELCOME
+end 
 
-  # Add your post route and action below
+get '/quiz' do
+  erb :quiz
+end 
 
-
- get '/' do
-    erb :fortune
-  end
-
-
- post '/results' do
+post '/recommendations' do 
+  # {"name"=>"dd", "category"=>["makeup", "technology"]}
   @name = params[:name]
-  @sign = params[:sign]
-  @food = params[:food]
-  @been_before = params[:been_before]
-    erb :results
+  @category = params[:category]
+  erb :recommendations
+end
+
+get '/allvideos' do
+  erb :allvideos
+end 
+
+ post '/BeginnersMakeupTutorials' do
+    erb :BeginnersMakeupTutorials
   end
-   post '/food_form' do
-  @food = params[:food]
-      erb :food_form
-    end 
+
+ post '/AdvancedMakeupTutorials' do
+    erb :AdvancedMakeupTutorials
+  end
+  
+post '/Art' do
+    erb :Art
+  end
+  
+post '/CodeforBeginners' do
+    erb :CodeforBeginners
+ end
+ 
+post '/CollegeApplicationTips' do
+    erb :CollegeApplicationTips
+  end  
+  
+post '/Happiness' do
+    erb :Happiness
+  end  
+
+ post '/Healthiness' do
+    erb :Healthiness
+  end
+
+ post '/LearnLanguages' do
+    erb :LearnLanguages
+  end
+
+ post '/Photoshop' do
+    erb :Photoshop
+  end
+  
+ post '/RandomDIY' do
+    erb :RandomDIY
+  end
+
+ post '/Relationships' do
+    erb :Relationships
+  end
+
+ post '/SingDance' do
+    erb :SingDance
+  end
+
+ post '/Sports' do
+    erb :Sports
+  end
 end
 
 
