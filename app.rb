@@ -70,9 +70,9 @@ post '/Happiness' do
   end
 
 post 
-# post '/Sports' do
-#     erb :Sports
-#   end
+post '/Sports' do
+    erb :Sports
+  end
 end
 
 
