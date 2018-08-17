@@ -72,7 +72,6 @@ post '/SingDance' do
 post 
 post '/Sports' do
     erb :Sports
-    
   
 
 
