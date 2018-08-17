@@ -22,7 +22,7 @@ get '/allvideos' do
 end 
 
  post '/BeginnersMakeupTutorials' do
-    erb :BeginnersMakeupTutorials
+    erb :BeginnersMakeupTutorials 
   end
 
  post '/AdvancedMakeupTutorials' do
