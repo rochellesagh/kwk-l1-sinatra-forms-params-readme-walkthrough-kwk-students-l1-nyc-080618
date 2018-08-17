@@ -72,7 +72,7 @@ post '/Happiness' do
 post 
 post '/Sports' do
     erb :Sports
-  end 
+  
   
 
 
