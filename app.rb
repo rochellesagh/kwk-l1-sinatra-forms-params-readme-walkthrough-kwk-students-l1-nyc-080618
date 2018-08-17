@@ -65,7 +65,7 @@ post '/Happiness' do
     erb :Relationships
   end
 
- post '/SingDance' do
+post '/SingDance' do
     erb :SingDance
   end
 
