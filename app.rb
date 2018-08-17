@@ -69,11 +69,11 @@ post '/Happiness' do
     erb :SingDance
   end
 
-post 
-post '/Sports' do
-    erb :Sports
-  end
-end
+# post 
+# post '/Sports' do
+#     erb :Sports
+#   end
+# end
 
 
 
