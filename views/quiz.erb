@@ -1,19 +1,18 @@
-<html class="wholescreenclass" >
+<html class = "quizbackground">
 <head> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 
 </head>
 <body class = "quizbodyclass">
 
-<h1 class="takequizclass" ><marquee>Take this quiz to discover new interests </marquee></h1>
+<h1 class="takequiz" >Take this quiz to discover new interests </h1>
 
 <form method = "POST" action = "/recommendations"
-class="middleclass" >
+class="quizclass">
   
   What is your name?<br>
-  <input type="text" name="name" class="nameclass"><br>
+  <input class = "quizinput" type="text" name="name" class="nameclass"><br>
   
 
   <h2 class="interestclass" >What are you most interested in? Check all that apply:</h2>
@@ -28,7 +27,7 @@ class="middleclass" >
   <input class="checkboxclass" type="checkbox" name="category[]" value="Relationships">Relationships<br>
   
   
-<button input type= "submit" class="submitbuttonclass" >Submit</button>
+<button class = "quizsubmit" input type= "submit">Submit</button>
   </form>
 </body>
 </html>                 

@@ -1,64 +1,319 @@
-li {
-    display: inline;
+.WelcomeClass{
+  text-align: center;
+  font-size: 2000%;
+  font-family: 'Poiret One', cursive;
+  color: black;
+  background-color: white;
+  margin-top: 50px;
+  background-size: 1450px 550px;
+  margin-bottom: 60px;
 }
 
-.buttonstyle{
-  color:green;
-  font-size:100%;
-  background-color:yellow;
+.recommendbutton{
+  padding: 14px 40px;
+  margin-bottom: 100px;
+  font-size: 200%;
+  background-color: black;
+  color: white;
+  border: none;
+  font-family: Arial;
 }
 
-.buttonstyles{
-  color:purple;
-  font-size:100%;
-  background-color:pink;
+.recommendbutton:hover{
+  background-color: #676767; /* Black */
+    color: black;
+}
+.RecommendationsClass{
+  font-size: 325%;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  background-color: white;
+  padding-top: 30px;
+  border-style: dotted;
+  border-width: 20px;
 }
 
-.buttonstyles2{
-  color:orange;
-  font-size:100%;
-  background-color:blue;
+
+.welcomebutton{
+  padding: 14px 40px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 500%;
+  background-color: black;
+  color: white;
+  border: none;
+  font-family: Arial;
+
 }
 
+.welcomebutton:hover {
+     background-color: #676767; /* Black */
+    color: black;
+}
 
+.welcomebody {
+ background-color: white;
+ border-style: dotted;
+ border-width: 20px;
+ border-color: black;
+ text-align: center;
+ margin-bottom: 10px;
+}
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
+.quizinput{
+  background-color: #676767;
+  font-size: 100%;
+  border: none;
+}
+
+.quizsubmit{
+  padding: 14px 40px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 180%;
+  background-color: black;
+  color: white;
+  border: none;
+  font-family: Arial;
+}
+
+.quizsubmit:hover {
+ background-color: #676767; /* Black */
+ color: black;
+}
+
+.quizbodyclass {
   text-align: center;
   font-family: arial;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 25px;
 }
 
-.title {
-  color: grey;
-  font-size: 18px;
+.quizbackground {
+  background-color: white;
+  border-style: dotted;
+  border-width: 10px;
 }
 
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
+.takequiz {
+  font-family: 'Poiret One', cursive;
   text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 22px;
   color: black;
+  padding-top: 30px;
+  font-size: 500%;
 }
 
-button:hover, a:hover {
-  opacity: 0.7;
+
+.quizclass {
+  margin-top: 100px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 160%;
 }
 
+.interestclass {
+  font-family: 'Josefin Sans', sans-serif;
+}
 
+.nameclass {
+  border: none;
+  background-color: #676767;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 5px;
+}
+
+.beginnersbuttonclass{
+  padding: 14px 40px;
+  font-size: 50px;
+  background-color: #EAECEE;
+  color: #808B96;
+  border: none;
+  font-family: 'Poiret One', cursive;
+}
+
+.beginnersbuttonclass:hover {
+   background-color: #EAF2F8; /* Black */
+    color: black;
+}
+
+.advancedbuttonclass{
+  padding: 14px 40px;
+  font-size: 50px;
+  background-color: #EAECEE;
+  color: #808B96;
+  border: none;
+  font-family: 'Poiret One', cursive;
+}
+
+.advancedbuttonclass:hover{
+   background-color: #EAF2F8; /* Black */
+    color: black;
+}
+
+.artbuttonclass{
+  padding: 14px 40px;
+  font-size: 50px;
+  background-color: #EAECEE;
+  color: #808B96;
+  border: none;
+  font-family: 'Poiret One', cursive;
+}
+
+.artbuttonclass:hover{
+  background-color: #EAF2F8; /* Black */
+    color: black;
+}
+
+.codebuttonclass{
+   padding: 14px 40px;
+  font-size: 50px;
+  background-color: #EAECEE;
+  color: #808B96;
+  border: none;
+  font-family: 'Poiret One', cursive;
+}
+
+.codebuttonclass:hover{
+  background-color: #EAF2F8; /* Black */
+    color: black;
+}
+
+.collegebuttonclass{
+  padding: 14px 40px;
+  font-size: 50px;
+  background-color: #EAECEE;
+  color: #808B96;
+  border: none;
+  font-family: 'Poiret One', cursive;
+}
+
+.collegebuttonclass:hover{
+  background-color: #EAF2F8; /* Black */
+    color: black;
+}
+
+.happybuttonclass{
+   padding: 14px 40px;
+  font-size: 50px;
+  background-color: #EAECEE;
+  color: #808B96;
+  border: none;
+  font-family: 'Poiret One', cursive;
+}
+
+.happybuttonclass:hover{
+   background-color: #EAF2F8; /* Black */
+    color: black;
+}
+
+.healthybuttonclass{
+  padding: 14px 40px;
+  font-size: 50px;
+  background-color: #EAECEE;
+  color: #808B96;
+  border: none;
+  font-family: 'Poiret One', cursive;
+}
+
+.healthybuttonclass:hover{
+   background-color: #EAF2F8; /* Black */
+    color: black;
+}
+
+.languagesbuttonclass{
+  padding: 14px 40px;
+  font-size: 50px;
+  background-color: #EAECEE;
+  color: #808B96;
+  border: none;
+  font-family: 'Poiret One', cursive;
+}
+
+.languagesbuttonclass:hover{
+   background-color: #EAF2F8; /* Black */
+    color: black;
+}
+
+.photoshopbuttonclass{
+  padding: 14px 40px;
+  font-size: 50px;
+  background-color: #EAECEE;
+  color: #808B96;
+  border: none;
+  font-family: 'Poiret One', cursive;
+}
+  
+.photoshopbuttonclass:hover{
+   background-color: #EAF2F8; /* Black */
+    color: black;
+}
+
+.randombuttonclass{
+  padding: 14px 40px;
+  font-size: 50px;
+  background-color: #EAECEE;
+  color: #808B96;
+  border: none;
+  font-family: 'Poiret One', cursive;
+}
+
+.randombuttonclass:hover{
+   background-color: #EAF2F8; /* Black */
+    color: black;
+}
+
+.relationshipsbuttonclass{
+  padding: 14px 40px;
+  font-size: 50px;
+  background-color: #EAECEE;
+  color: #808B96;
+  border: none;
+  font-family: 'Poiret One', cursive;
+}
+
+.relationshipsbuttonclass:hover{
+   background-color: #EAF2F8; /* Black */
+    color: black;
+}
+
+.singdancebuttonclass{
+  padding: 14px 40px;
+  font-size: 50px;
+  background-color: #EAECEE;
+  color: #808B96;
+  border: none;
+  font-family: 'Poiret One', cursive;
+}
+
+.singdancebuttonclass:hover{
+   background-color: #EAF2F8; /* Black */
+    color: black;
+}
+
+.sportsbuttonclass{
+  padding: 14px 40px;
+  font-size: 50px;
+  background-color: #EAECEE;
+  color: #808B96;
+  border: none;
+  font-family: 'Poiret One', cursive;
+}
+
+.sportsbuttonclass:hover{
+   background-color: #EAF2F8; /* Black */
+    color: black;
+}
+
+.container {
+  border-style: dotted;
+  border-width: 20px;
+  text-align: center;
+  font-size: 300%;
+  font-family: 'Poiret One', cursive;
+}
 
 /*quiz page*/
 
@@ -134,18 +389,32 @@ button:hover, a:hover {
 
 /*all videos*/
 
+
 .allvideosclass {
   text-align: center;
-  font-family: 'Didact Gothic', sans-serif;
+ font-family: 'Poiret One', cursive;
+  font-size: 650%;
 }
 
-.videosclass {
+.allvidbody {
+  border-style: dotted;
+  border-width: 20px;
+}
+
+.videos{
   text-align: center;
-  height: 25px;
-  width: 1200px;
-  margin-left: 30px;
+  padding: 14px 40px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 150%;
+  background-color: black;
+  color: white;
+  border: none;
+  font-family: Arial;}
+
+.videos:hover {
+  background-color: #676767; /* Black */
+ color: black;
 }
-
-
 
 
